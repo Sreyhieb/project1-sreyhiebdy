@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    background: #eec;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contain{
+    background: pink;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px #eee;
+    margin-bottom: 10px;
+    width: 40%;
+}
+.card-container {
+    width: 50%;
+}
+.form-container input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background: #0bbbf1;
+    text-transform: uppercase;
+    color: #fff;
+}
+.card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.delete {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* .form-container{
+    display: none;
+} */
